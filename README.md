@@ -1,4 +1,6 @@
-# TOP--Fennerii
-TheOdinProject Repo
-Adding All Files and Notes Here
+# WebDev Bootcamps
 
+2/8/26
+Currently Working Through TheOdinProject and FreecodeCamp
+
+After: Full-Stack Open
