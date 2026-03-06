@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Hydra Lab Survey</h1>
+    <p id="description">Tell us how you feel about the lab</p>
+    <form id="survey-form">
+<label id="name-label" for="name">Enter Your Name</label>
+<input id="name" type="text" placeholder="Your name here:" required>
+<label id="email-label" for="email">Enter Your Email</label>
+<input id="email" type="email" placeholder="Example@ex.com" required>
+<label id="number-label" for="number">Number</label>
+<input id="number" type="number" min="3" max="10" placeholder="XXX-XXX-XXXX">
+
+
+
+  <caption>Have you used it</caption>
+<label for="dropdown"></label>
+<select id="dropdown"> 
+  <option>Yes</option>
+  <option>No</option>
+</select>
+
+
+
+  <legend>What day of the Week Do You Use The Lab</legend>
+<label for="day-of-week"></label>
+<input id="monday" type="radio" value="monday" name="mondaytues">
+<label for="monday">Monday</label>
+<input id="tuesday" type="radio" value="tuesday" name="mondaytues">
+<label for="tuesday">Tuesday</label>
+<input id="wednesday" type="radio" value="wednesday" name="wednesdaythurs">
+<label for="wednesday">Wednesday</label>
+<input id="thursday" type="radio" value="thursday" name="wednesdaythurs">
+<label for="thursday">Thursday</label>
+
+<legend>Do you swipe in</legend>
+<input id="check-yes" type="checkbox" value="check-yes">
+<label for="check-yes">Yes</label>
+<input id="check-no" type="checkbox" value="check-no">
+<label for="check-no">No</label>
+
+<legend>Other Comments?</legend>
+<textarea placeholder="Comments">
+</textarea>
+
+<legend>Submit Answers</legend>
+<input type="submit" id="submit"> 
+
+</form>
+
+  </body>
+</html>
